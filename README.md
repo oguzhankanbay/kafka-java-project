@@ -1,0 +1,3 @@
+Bu uygulama, Wikimedia'nın gerçek zamanlı veri akışını dinleyen bir Kafka üretici ve tüketici içerir. Veriler, Kafka aracılığıyla alınır ve MongoDB veritabanına kaydedilir. Kafka üretici sınıfı, Wikimedia değişikliklerini takip eden bir olay üreticisini temsil ederken, Kafka tüketici sınıfı bu değişiklikleri dinleyip MongoDB'ye kaydeder. Bu sayede, Wikimedia'nın gerçek zamanlı veri akışı, Kafka aracılığıyla işlenerek MongoDB'de tutulmuş olur.
+
+Uygulama, büyük veri akışlarını işlemek, güvenilir bir şekilde iletişim kurmak ve farklı sistemler arasında veri paylaşımını kolaylaştırmak amacıyla Kafka'nın kullanımını örneklemektedir.
